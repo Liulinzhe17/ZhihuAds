@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		412BFF381FD1708200DB6333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF371FD1708200DB6333 /* AppDelegate.m */; };
-		412BFF3B1FD1708200DB6333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF3A1FD1708200DB6333 /* ViewController.m */; };
 		412BFF3E1FD1708200DB6333 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412BFF3C1FD1708200DB6333 /* Main.storyboard */; };
 		412BFF401FD1708200DB6333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412BFF3F1FD1708200DB6333 /* Assets.xcassets */; };
 		412BFF431FD1708200DB6333 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412BFF411FD1708200DB6333 /* LaunchScreen.storyboard */; };
 		412BFF461FD1708200DB6333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF451FD1708200DB6333 /* main.m */; };
+		412BFF4F1FD1711000DB6333 /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF4C1FD1711000DB6333 /* NewsTableViewCell.m */; };
+		412BFF531FD1711B00DB6333 /* AdsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF511FD1711B00DB6333 /* AdsTableViewCell.m */; };
+		412BFF581FD1712400DB6333 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF541FD1712400DB6333 /* HomeViewController.m */; };
+		412BFF591FD1712400DB6333 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF551FD1712400DB6333 /* ContentViewController.m */; };
+		412BFF5D1FD175C900DB6333 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BFF4D1FD1711000DB6333 /* NewsTableViewCell.xib */; };
+		412BFF5E1FD175CD00DB6333 /* AdsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412BFF521FD1711B00DB6333 /* AdsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		412BFF331FD1708200DB6333 /* ZhihuAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhihuAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		412BFF361FD1708200DB6333 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		412BFF371FD1708200DB6333 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		412BFF391FD1708200DB6333 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		412BFF3A1FD1708200DB6333 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		412BFF3D1FD1708200DB6333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		412BFF3F1FD1708200DB6333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		412BFF421FD1708200DB6333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		412BFF441FD1708200DB6333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		412BFF451FD1708200DB6333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		412BFF4C1FD1711000DB6333 /* NewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		412BFF4D1FD1711000DB6333 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		412BFF4E1FD1711000DB6333 /* NewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		412BFF501FD1711A00DB6333 /* AdsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdsTableViewCell.h; sourceTree = "<group>"; };
+		412BFF511FD1711B00DB6333 /* AdsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsTableViewCell.m; sourceTree = "<group>"; };
+		412BFF521FD1711B00DB6333 /* AdsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsTableViewCell.xib; sourceTree = "<group>"; };
+		412BFF541FD1712400DB6333 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		412BFF551FD1712400DB6333 /* ContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		412BFF561FD1712400DB6333 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		412BFF571FD1712400DB6333 /* ContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +71,18 @@
 		412BFF351FD1708200DB6333 /* ZhihuAds */ = {
 			isa = PBXGroup;
 			children = (
+				412BFF4E1FD1711000DB6333 /* NewsTableViewCell.h */,
+				412BFF4C1FD1711000DB6333 /* NewsTableViewCell.m */,
+				412BFF4D1FD1711000DB6333 /* NewsTableViewCell.xib */,
+				412BFF501FD1711A00DB6333 /* AdsTableViewCell.h */,
+				412BFF511FD1711B00DB6333 /* AdsTableViewCell.m */,
+				412BFF521FD1711B00DB6333 /* AdsTableViewCell.xib */,
+				412BFF571FD1712400DB6333 /* ContentViewController.h */,
+				412BFF551FD1712400DB6333 /* ContentViewController.m */,
+				412BFF561FD1712400DB6333 /* HomeViewController.h */,
+				412BFF541FD1712400DB6333 /* HomeViewController.m */,
 				412BFF361FD1708200DB6333 /* AppDelegate.h */,
 				412BFF371FD1708200DB6333 /* AppDelegate.m */,
-				412BFF391FD1708200DB6333 /* ViewController.h */,
-				412BFF3A1FD1708200DB6333 /* ViewController.m */,
 				412BFF3C1FD1708200DB6333 /* Main.storyboard */,
 				412BFF3F1FD1708200DB6333 /* Assets.xcassets */,
 				412BFF411FD1708200DB6333 /* LaunchScreen.storyboard */,
@@ -129,6 +150,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				412BFF5E1FD175CD00DB6333 /* AdsTableViewCell.xib in Resources */,
+				412BFF5D1FD175C900DB6333 /* NewsTableViewCell.xib in Resources */,
 				412BFF431FD1708200DB6333 /* LaunchScreen.storyboard in Resources */,
 				412BFF401FD1708200DB6333 /* Assets.xcassets in Resources */,
 				412BFF3E1FD1708200DB6333 /* Main.storyboard in Resources */,
@@ -142,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412BFF3B1FD1708200DB6333 /* ViewController.m in Sources */,
+				412BFF531FD1711B00DB6333 /* AdsTableViewCell.m in Sources */,
 				412BFF461FD1708200DB6333 /* main.m in Sources */,
+				412BFF591FD1712400DB6333 /* ContentViewController.m in Sources */,
 				412BFF381FD1708200DB6333 /* AppDelegate.m in Sources */,
+				412BFF581FD1712400DB6333 /* HomeViewController.m in Sources */,
+				412BFF4F1FD1711000DB6333 /* NewsTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
